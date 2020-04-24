@@ -13,11 +13,8 @@ import pandas as pd
 import requests
 import streamlit as st
 import datetime
-import seaborn as sns
-import matplotlib.pyplot as plt
 import numpy as np
 
-import datetime
 today = datetime.date.today()
 
 # starting from 1st Feb 2020 for COVID cases 
