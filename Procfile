@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run COVID-19_Files.py
+web: streamlit run --server.enableCORS false --server.port $PORT COVID-19_Files.py
