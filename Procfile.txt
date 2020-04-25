@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run COVID-19_Files.py
